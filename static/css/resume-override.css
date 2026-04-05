@@ -1,0 +1,55 @@
+/* Color overrides to match favicon (Purple/Indigo theme) */
+
+/* Main brand and accent color - Purple/Indigo */
+.bg-primary {
+  background-color: #6F42C1 !important;
+}
+
+.text-primary {
+  color: #6F42C1 !important;
+}
+
+a {
+  color: #6F42C1;
+}
+
+a:hover, a:focus, a:active {
+  color: #51318F;
+}
+
+/* Main page background - very light purple/off-white */
+body {
+  background-color: #F8F7FC; /* Very light lavender/white */
+  color: #343A40; /* Dark grey for high readability */
+}
+
+/* Alternate section background for a layered look */
+section.resume-section:nth-of-type(even) {
+  background-color: #FFFFFF;
+}
+
+/* Sidebar styling for a professional look */
+@media (min-width: 992px) {
+  #sideNav {
+    background-color: #6F42C1 !important; /* Sidebar background matches favicon */
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  }
+  
+  #sideNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+
+  #sideNav .navbar-nav .nav-item .nav-link:hover,
+  #sideNav .navbar-nav .nav-item .nav-link.active {
+    color: #fff !important;
+  }
+}
+
+/* Tech tag styling */
+.list-inline-item i:hover {
+  color: #6F42C1 !important;
+}
+
+.list-social-icons a:hover {
+  color: #6F42C1 !important;
+}
