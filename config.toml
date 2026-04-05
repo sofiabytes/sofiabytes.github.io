@@ -1,0 +1,65 @@
+title = "Sofia Bytes"
+baseURL = "https://sofiabytes.github.io/"
+theme = "hugo-resume"
+languageCode = "en-gb"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = ""
+email = "dev@sofiabytes.net"
+favicon = "/favicon.png"
+firstName = "Sofia"
+lastName = "Bytes"
+# phone = "1-555-555-1234"
+profileImage = "favicon.png"
+showQr = false
+showContact = true
+showBoards  = false
+showCertifications = false
+showSocializations = true
+sections = ["about", "obsidian-plugins", "misc-projects", "experience", "skills"]
+vcardfields = [
+    "name",
+    "image",
+    "org",
+    "email",
+    "workemail",
+    "phone",
+    "url",
+    "title"
+]
+
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/sofiabytes/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/sofiabytes/"
+
+    
+
+
+
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
+
+
+[mediaTypes]
+  [mediaTypes."text/vcard"]
+    suffixes = ["vcf"]
+
+[outputFormats]
+  [outputFormats.VCard]
+    mediaType = "text/vcard"
+    baseName = "contact"
+    isPlainText = true
+    notAlternative = true

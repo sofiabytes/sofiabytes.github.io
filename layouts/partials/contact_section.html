@@ -1,0 +1,11 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+  <div class="my-auto">
+    <h2 class="mb-5">{{ i18n "contact" }}</h2>
+    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+      <div class="resume-content">
+        <p>You can reach me via email at <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>.</p>
+        {{ partial "contact-qr" . }}
+      </div>
+    </div>
+  </div>
+</section>
