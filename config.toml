@@ -35,11 +35,11 @@ vcardfields = [
 
 [[params.handles]]
     name = "LinkedIn"
-    link = "https://www.linkedin.com/in/sofiabytes/"
+    link = "linkedin/in/sofiabytes"
 
 [[params.handles]]
     name = "GitHub"
-    link = "https://github.com/sofiabytes/"
+    link = "github.com/sofiabytes"
 
     
 
