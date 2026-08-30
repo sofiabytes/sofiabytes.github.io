@@ -4,15 +4,8 @@ layout: default
 params:
   featured: true
 ---
-**Pixnote** is a custom Obsidian plugin for managing notes and ideas. It provides an integrated workspace for capturing thoughts, organizing content, and maintaining a second brain.
+**Pixnote** is an Obsidian plugin for managing images and metadata. 
+Images are saved to Obsidian with a note of the same name, which provides fields for sources and tagging the picture. The plugin can also extract exif data to add data and location to the frontmatter of the image note.
 
-## Features
+[Install it from here](https://community.obsidian.md/plugins/pixnote)
 
-- Fast note creation and management
-- Organized note hierarchy
-- Sync capabilities across devices
-- Customizable workflows
-
-## Usage
-
-Access Pixnote directly from the Obsidian plugin menu to start capturing your ideas and building your knowledge base.
